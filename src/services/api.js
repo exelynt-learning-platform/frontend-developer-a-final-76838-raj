@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://6a96b78f0e3240db90615393.mockapi.io/api/v1',
+  baseURL: 'https://6a96b78f0e3240db90615393.mockapi.io',
 });
 
 export const fetchEmployees = () => api.get('/employee');
